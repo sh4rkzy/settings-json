@@ -1,0 +1,68 @@
+{
+    // editor config
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Min Dark",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "biome.suggestInstallingGlobally": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 12,
+    "editor.lineHeight": 1.8,
+    "editor.fontVariations": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": true,
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "breadcrumbs.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, eslint.config.*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+        "tailwind.config.*": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*",
+        "README.md": "CHANGELOG*, LICENSE*, CONTRIBUTING*",
+        "docker": "docker-compose*, Dockerfile*, .dockerignore",
+        "Makefile": "makefile*",
+        "tsconfig.json": "tsconfig*, jsconfig*",
+        "styles": "*.css, *.scss, *.sass, *.less",
+    },
+    "files.exclude": {
+        "**\/CVS": true,
+        "**\/.DS_Store": true,
+        "**\/.hg": true,
+        "**\/.svn": true,
+        "**\/.git": true,
+        ".vscode": true
+    },
+    "search.exclude": {
+        "**\/node_modules": true,
+        "**\/.git": true,
+        "**\/.hg": true,
+        "**\/.svn": true,
+        "**\/.DS_Store": true,
+        "**\/dist": true,
+        "**\/.next": true,
+        "**\/out": true,
+        "**\/.vercel": true,
+        "**\/.turbo": true,
+        "**\/.vscode": true
+    },
+    //terminal config
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontSize": 11,
+
+}
