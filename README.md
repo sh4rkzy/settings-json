@@ -1,0 +1,2 @@
+# settings-json
+Minha configura
